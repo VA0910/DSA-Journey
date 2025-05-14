@@ -9,10 +9,11 @@ public:
     //    int maxDiff=0;
        int n=prices.size();
     //    for(int i=1;i<n;i++){
-    //     currDiff=max(0,currDiff+=prices[i]-prices[i-1]);//Kadane's Algorithm
+    //     currDiff=max(0,currDiff+=prices[i]-prices[i-1]); //Kadane's Algorithm
     //     maxDiff=max(maxDiff,currDiff);
     //    }
     //    return maxDiff;
+    
     int min=prices[0];
     int max=0;
     for(int i=0;i<n;i++){

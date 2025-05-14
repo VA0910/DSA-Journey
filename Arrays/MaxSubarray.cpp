@@ -29,5 +29,5 @@ int main(){
 Solution s;
 cout<<s.maxSubArray(nums);
 
-
+return 0;
 }
