@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> leaders(vector<int>& nums) {
+    vector<int> leaders(vector<int>& nums) { // O(n^2)
         int n= nums.size();
         vector<int> result;
       for(int i=0; i<n;i++){
@@ -26,7 +26,7 @@ public:
       return result;
     }
 
-    vector<int> leaders2(vector<int> nums){
+    vector<int> leaders2(vector<int> nums){ // optimal solution O(n)
         int n=nums.size();
         int max=nums[n-1];
         vector<int> res;
